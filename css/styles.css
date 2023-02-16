@@ -1,0 +1,46 @@
+.navigation-block{
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Gilroy';
+}
+body{
+    background-color: #E6D9BF;
+}
+.nav-ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 425px;
+    padding-top: 45px;
+    font-size: 17px;
+}
+
+.nav-a{
+    font-size: 17px;
+    color: #713C25;
+    position: relative;
+}
+
+.nav-a::after{
+    content: '';
+    height: 1px;
+    width: 0px;
+    background-color: #BE6C42;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 0.3s linear;
+}
+
+.nav-a:hover::after{
+    width: 100%;
+}
+
+.burger-bar{
+    color: #713C25;
+    padding-top: 45px;
+    display: none; 
+}

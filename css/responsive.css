@@ -1,0 +1,10 @@
+@media(max-width: 1024px){
+    .burger-bar{
+        display: flex;
+        color: #713C25;
+    }
+
+    .nav-ul{
+        display: none;
+    }
+}
