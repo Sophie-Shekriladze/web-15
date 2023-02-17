@@ -10,3 +10,16 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Apparel Display';
+    src: url('../fonts/FONTSPRINGDEMO-ApparelDisplayRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-ApparelDisplayRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-ApparelDisplayRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-ApparelDisplayRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-ApparelDisplayRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-ApparelDisplayRegular.svg#FONTSPRINGDEMO-ApparelDisplayRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
