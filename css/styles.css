@@ -179,7 +179,15 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 120px;
+    /* transition: width 1s, height 2s;
+    cursor: pointer;
+    transition-timing-function: 0.1s; */
 }
+
+/* .for-logo:hover{
+    width: 800px;
+    height: 800px;
+} */
 
 .for{
     max-width: 1200px;
@@ -225,10 +233,11 @@ body{
     color: #713C25;
     font-size: 18px;
     font-family: 'Gilroy';
+    padding-top: 5px;
 }
 
 .social-2{
-    max-width: 130px;
+    max-width: 120px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -273,7 +282,9 @@ color: #BE6C42;
 }
 
 .width-the-young:hover{
-    color: #BE6C42;
+    color: beige;
+    cursor: pointer;
+    cursor: grab;
 }
 
 .Collection{
@@ -291,7 +302,7 @@ color: #BE6C42;
     width: 100%;
     padding-top: 120px;
     position: relative;
-    transition: width 5s, height 9s;
+    transition: width 2s, height 4s;
     cursor: pointer;
 }
 .collec-img-1:hover{
@@ -304,7 +315,7 @@ color: #BE6C42;
     width: 100%;
     padding-top: 60px;
     position: relative;
-    transition: width 5s, height 9s;
+    transition: width 2s, height 4s;
     cursor: pointer;
 }
 .collec-img-2:hover{
@@ -316,7 +327,7 @@ color: #BE6C42;
     max-width: 380px;
     width: 100%;
     position: relative;
-    transition: width 5s, height 9s, top 5s;
+    transition: width 2s, height 4s;
     cursor: pointer;
 }
 

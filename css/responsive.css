@@ -56,11 +56,58 @@
     .for-logo{
         padding-top: 250px;
     }
+
+    .width-the-young{
+        margin-left: 20px;
+        width: 90%;
+    }
+
+    .Collection{
+        width: 90%;
+        flex-wrap: wrap;;
+        height: auto;
+    }
+
+    .collec-img-1{
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        padding-top: 0%;
+        transition: width 2s, height 4s;
+        cursor: pointer;
+    }
+
+    .collec-img-1:hover{
+        width: 80%;
+        height: 80%;
+    }
+    .collec-img-2{
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        padding-top: 0%;
+        transition: width 2s, height 4s;
+        cursor: pointer;
+    }
+    .collec-img-2:hover{
+        width: 80%;
+        height: 80%;
+    }
+
+    .collec-img-3{
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        padding-top: 0%;
+        transition: width 2s, height 4s;
+        cursor: pointer;
+    }
+
+    .collec-img-3:hover{
+        width: 80%;
+        height: 80%;
+    }
 }
-
-
-
-
 
 @media(min-width: 320px) and (max-width: 620px){
     .div-2023{
@@ -69,6 +116,11 @@
         margin-left: 40px;
         margin-top: 150px;
         transform: rotate(90deg);
+    }
+
+    .arrow{
+        top: 35%;
+        left: 20%;
     }
 
     .img-2023{
