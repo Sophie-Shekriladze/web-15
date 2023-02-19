@@ -365,4 +365,11 @@ color: #BE6C42;
     width: 150px;
 }
 
+.bg-img-about{
+    background-image: url('../images/shutterstock_1749300185.png');
+    background: yellow;
+    max-width: 1200px; 
+    width: 100%;
+    margin: 0 auto;
+}
 
