@@ -1,4 +1,23 @@
 @media(max-width: 1024px){
+
+    .bg-img-2023{
+        height: auto;
+    }
+
+    .brown-div{
+        margin: 0 auto;
+        height: 60px;
+    }
+
+    .brown-h3{
+        width: 80%;
+        font-size: 12px;
+        height: auto;
+    }
+
+    .first-div{
+        height: auto;
+    }
     .burger-bar{
         display: flex;
         color: #713C25;
@@ -7,4 +26,108 @@
     .nav-ul{
         display: none;
     }
+
+    .navigation-block{
+        width: 90%;
+        margin: 0 auto;
+        background: none;
+    }
+
+    .first-div{
+        height: auto;
+    }
+
+    .div-2023{
+        width: 30%;
+        height: auto;
+        margin-left: 40px;
+        transform: rotate(90deg);
+    }
+
+    .img-2023{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .footer-div{
+        bottom: 500px;
+    }
+
+    .for-logo{
+        padding-top: 250px;
+    }
 }
+
+
+
+
+
+@media(min-width: 320px) and (max-width: 620px){
+    .div-2023{
+        width: 30%;
+        height: auto;
+        margin-left: 40px;
+        margin-top: 150px;
+        transform: rotate(90deg);
+    }
+
+    .img-2023{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .brown-div{
+        margin: 0 auto;
+        height: 60px;
+        text-align: center;
+        position: relative;
+    }
+
+    .brown-h3{
+        width: 80%;
+        font-size: 8px;
+        height: auto;
+        height: 20px;
+        left: 0%;
+        position: absolute;
+        animation-name: text;
+        height: auto;
+        animation: text 5s infinite;
+        animation-direction: alternate;
+    }
+    
+    @keyframes text{    
+        from {bottom: 2px;}
+        to {bottom: 10px;}  
+    }
+
+    .for-logo{
+        padding-top: 150px;
+    }
+
+    .footer-div-2{
+        flex-wrap: wrap;
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
