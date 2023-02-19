@@ -252,3 +252,106 @@ color: #BE6C42;
   margin: 0 auto;
     
 }
+
+.for-future{
+    max-width: 1200px;
+    margin: 70px auto;
+}
+
+.future{
+    width: 100%;
+}
+
+.width-the-young{
+    font-size: 25px;
+    max-width: 600px;
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 2px;
+    font-family: 'Gilroy';
+    color: #713C25;
+}
+
+.width-the-young:hover{
+    color: #BE6C42;
+}
+
+.Collection{
+    max-width: 1250px;
+    width: 100%;
+    margin: 30px auto;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.collec-img-1{
+    max-width: 400px;
+    height: auto;
+    width: 100%;
+    padding-top: 120px;
+    position: relative;
+    transition: width 5s, height 9s;
+    cursor: pointer;
+}
+.collec-img-1:hover{
+    width: 360px;
+    height: 690px;
+}
+
+.collec-img-2{
+    max-width: 380px;
+    width: 100%;
+    padding-top: 60px;
+    position: relative;
+    transition: width 5s, height 9s;
+    cursor: pointer;
+}
+.collec-img-2:hover{
+    width: 350px;
+    height: 690px;
+}
+
+.collec-img-3{
+    max-width: 380px;
+    width: 100%;
+    position: relative;
+    transition: width 5s, height 9s, top 5s;
+    cursor: pointer;
+}
+
+.collec-img-3:hover{
+    width: 360px;
+    height: 600px;
+}
+
+.see-more{
+    color: burlywood;
+    font-size: 17px;
+    width: 80px;
+    height: 25px;
+    background: #BE6C42;
+    cursor: pointer;
+    transition-property: width;
+    transition-duration: 2s;
+    width: 100px;
+    font-family: 'Gilroy';
+    padding: 5%;
+}
+
+.arrow{
+    width: 80px;
+    height: 25px;
+    margin-bottom: 200px;
+    position: absolute;
+    top: 740px;
+    left: 220px;  
+    transition-property: width;
+    transition-duration: 4s;
+}
+
+.see-more:hover{
+    width: 150px;
+}
+
+
