@@ -1,10 +1,10 @@
 .navigation-block{
     display: flex;
-    justify-content: space-between;
-    background: #ddcdac;
-
+    justify-content: space-between; 
     height: 75px;
+    opacity: 0.9;
     max-width: 1200px;
+    background: #ddcdac;
     width: 100%;
     margin: 0 auto;
     z-index: 500;
@@ -12,7 +12,9 @@
     position: fixed;
     font-family: 'Gilroy';
     top: 0%;
+    left: auto;
 }
+
 
 
 body{
@@ -23,14 +25,14 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 425px;
+    width: 445px;
     padding-top: 45px;
     font-size: 17px;
 }
 
 .nav-a{
-    font-size: 17px;
-    color: #713C25;
+    font-size: 18px;
+    color: #421b0a;
     position: relative;
 }
 
@@ -175,7 +177,7 @@ body{
     max-width: 1200px;
     width: 100%;
     opacity: 0.6;
-
+    margin-bottom: 230px;
 }
 
 .footer{
@@ -226,7 +228,7 @@ body{
 }
 
 .footer-div-2{
-    max-width: 1200px;
+    max-width: 1100px;
     width: 100%;
     display: flex;
     justify-content: space-between;
