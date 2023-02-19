@@ -70,43 +70,24 @@
 
     .collec-img-1{
         width: 90%;
-        height: auto;
+        height: 500px;
         margin: 0 auto;
         padding-top: 0%;
-        transition: width 2s, height 4s;
-        cursor: pointer;
     }
 
-    .collec-img-1:hover{
-        width: 80%;
-        height: 80%;
-    }
-    .collec-img-2{
-        width: 90%;
-        height: auto;
-        margin: 0 auto;
-        padding-top: 0%;
-        transition: width 2s, height 4s;
-        cursor: pointer;
-    }
-    .collec-img-2:hover{
-        width: 80%;
-        height: 80%;
+  
+
+    .img-1{
+        width: 65%;
     }
 
-    .collec-img-3{
-        width: 90%;
-        height: auto;
-        margin: 0 auto;
-        padding-top: 0%;
-        transition: width 2s, height 4s;
-        cursor: pointer;
+    .coll-h2{
+        width: 30%;
+        padding-bottom: 10px;
+        font-size: 25px;
     }
 
-    .collec-img-3:hover{
-        width: 80%;
-        height: 80%;
-    }
+
 }
 
 @media(min-width: 320px) and (max-width: 620px){
@@ -160,6 +141,36 @@
     .footer-div-2{
         flex-wrap: wrap;
         width: 90%;
+    }
+
+    .Collection{
+        width: 90%;
+        flex-wrap: wrap;;
+        height: auto;
+    }
+
+    .collec-img-1{
+        width: 90%;
+        height: 600px;
+        margin: 0 auto;
+        padding-top: 0%;;
+    }
+
+    .collec-img-1:hover{
+    width: 400px;
+    height: 600px;
+}
+  
+
+    .img-1{
+        width: 60%;
+        height: auto;
+    }
+
+    .coll-h2{
+        width: 30%;
+        padding-bottom: 10px;
+        font-size: 25px;
     }
 }
 
