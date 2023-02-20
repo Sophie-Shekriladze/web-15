@@ -86,12 +86,37 @@
         padding-bottom: 10px;
         font-size: 25px;
     }
+    .real{
+        left: 20px;
+        width: 80%;
+        font-size: 40px;
+        top: 100px;
+    }
 
+    .about-p-2{
+        left: 20px;
+        top: 350px;
+        width: 70%;
+        font-size: 15px;
+    }
 
+    .about-p{
+        left: 20px;
+        top: 520px;
+        width: 70%;
+        font-size: 15px;  
+    }
+
+    .about-footer{
+        left: 10px;
+        top: 720px;
+        width: 90%; 
+        font-size: 15px;
+    }
 }
 
 @media(min-width: 320px) and (max-width: 620px){
-    .div-2023{
+       .div-2023{
         width: 30%;
         height: auto;
         margin-left: 40px;
