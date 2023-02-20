@@ -3,7 +3,7 @@
     justify-content: space-between; 
     height: 75px;
     opacity: 0.9;
-    max-width: 1200px;
+    max-width: 1210px;
     background: #ddcdac;
     width: 100%;
     margin: 0 auto;
@@ -14,8 +14,6 @@
     top: 0%;
     left: auto;
 }
-
-
 
 body{
     background-color: #ddcdac;
@@ -28,6 +26,7 @@ body{
     width: 445px;
     padding-top: 45px;
     font-size: 17px;
+    padding-right: 10px;
 }
 
 .nav-a{
@@ -594,8 +593,11 @@ body{
     background: var(--box-background);
     border-radius: 5px;
     font-size: 25px;
+    margin-bottom: 70px;
 }
-
+.submit:hover{
+    background:#517931;
+}
 .submit-box{
     background: none;
     border: none;
@@ -647,4 +649,4 @@ body{
 
 .fa-copyright{
     color: #713C25;
-}
+} 
