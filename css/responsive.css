@@ -18,20 +18,6 @@
     .first-div{
         height: auto;
     }
-    .burger-bar{
-        display: flex;
-        color: #713C25;
-    }
-
-    .nav-ul{
-        display: none;
-    }
-
-    .navigation-block{
-        width: 90%;
-        margin: 0 auto;
-        background: none;
-    }
 
     .first-div{
         height: auto;
@@ -115,6 +101,31 @@
     }
 }
 
+@media(max-width: 800px){
+
+    .navigation{
+        display: none;
+    }
+
+    .burger-bar{
+        display: block;
+    }
+
+    .navigation-block{
+        padding: 1px 10px;
+    }
+
+    .nav-ul{
+        flex-direction: column;
+        width: 120px;
+        padding-top: 15px;
+    }  
+
+    .navigation.activeNav{
+        display: block;
+    }
+
+}
 @media(min-width: 320px) and (max-width: 620px){
        .div-2023{
         width: 30%;

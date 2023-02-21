@@ -1,39 +1,38 @@
-.navigation-block{
-    display: flex;
-    justify-content: space-between; 
-    height: 75px;
-    opacity: 0.9;
-    max-width: 1210px;
-    background: #ddcdac;
-    width: 100%;
-    margin: 0 auto;
-    z-index: 500;
-    position: relative;
-    position: fixed;
-    font-family: 'Gilroy';
-    top: 0%;
-    left: auto;
-}
-
 body{
     background-color: #ddcdac;
+}
+
+.navigation-block{
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 60px;  
+    align-items: center; 
+    position: relative; 
 }
 
 .nav-ul{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     width: 445px;
-    padding-top: 45px;
+    padding-top: 25px;
     font-size: 17px;
-    padding-right: 10px;
+    font-family: 'Gilroy';
+}
+
+.burger-bar{
+    color: #713C25;
+    position: absolute;
+    top: 35px;
+    right: 25px;
+    display: none;
+
 }
 
 .nav-a{
     font-size: 18px;
     color: #421b0a;
     position: relative;
-}
+} 
 
 .nav-a::after{
     content: '';
@@ -50,21 +49,16 @@ body{
     width: 100%;
 }
 
-.burger-bar{
-    color: #713C25;
-    padding-top: 45px;
-    display: none; 
-}
 
 .womens-img-1{
     max-width: 900px;
     width: 100%;
-    margin-top: 100px;
-    margin-left: 100px;
+    margin-top: 80px;
+    margin-left: 60px;
 }
  
 .womens-img{
-    max-width: 800px;
+    max-width: 897px;
     width: 100%;
     height: auto;
 } 
@@ -93,16 +87,14 @@ body{
 .img-2023{
     max-width: 180px;
     width: 100%;
-    margin-top: 160px;
-    margin-left: 120px;
 }
 
 .div-2023{
     background: auto;
-    height: 300px;
-    margin-left: 50px;
-    margin-top: 110px;
-    max-width: 300px;
+    height: 280px;
+    margin-left: 30px;
+    margin-top: 270px;
+    max-width: 200px;
     width: 100%;
 }
 
@@ -172,6 +164,10 @@ body{
     font-size: 12px;
 }
 
+.logo{
+    width: 100px;
+    height: 80px;
+}
 
 /* for */
 .for-logo{
@@ -576,7 +572,6 @@ body{
 
 .budget-celect{
     max-width: 20px;
-    background: yellow;
     height: 30px;
     border: none;
     background: none;
@@ -654,13 +649,17 @@ body{
 .click-box{
     width: 330px;
     height: 40px;
-    background:#c25f35;
+    background:#8d4628;
     margin-top: 320px;
-    margin-left: 40px;
+    margin-left: 16px;
     border-radius: 5px;
     display: flex;
     justify-content: space-around;
     align-items: center
+}
+
+.click-box:hover{
+    background: #517931;
 }
 
 .click:hover{
@@ -674,7 +673,24 @@ body{
     cursor: pointer;
     background: none;
     border: none;
-    font-size: 15px;
-    color:aliceblue;
+    font-size: 14px;
+    color:#e4b8a0;
     font-family: 'Gilroy';
+}
+
+.click-about{
+    position: absolute;
+    width: 330px;
+    height: 40px;
+    background:#8d4628;
+    top: 1050px;
+    left: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+.click-about:hover{
+    background: #517931;
 }
