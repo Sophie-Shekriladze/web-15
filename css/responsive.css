@@ -1,4 +1,119 @@
+@media(min-width: 320px) and (max-width: 360px) {
+    .div-2023{
+        height: 60%;
+        width: 50%;
+        margin-left: 40px;
+        margin-top: 200px;
+        transform: rotate(90deg);
+    } 
+}
+
+@media(min-width: 320px) and (max-width: 620px){
+ 
+    .arrow{
+        top: 35%;
+        left: 20%;
+    }
+
+    .brown-div{
+        margin: 0 auto;
+        height: 60px;
+        text-align: center;
+        position: relative;
+    }
+
+    .brown-h3{
+        width: 80%;
+        font-size: 8px;
+        height: auto;
+        height: 20px;
+        left: 0%;
+        position: absolute;
+        animation-name: text;
+        height: auto;
+        animation: text 5s infinite;
+        animation-direction: alternate;
+    }
+    
+    @keyframes text{    
+        from {bottom: 2px;}
+        to {bottom: 10px;}  
+    }
+
+    .for-logo{
+        padding-top: 150px;
+    }
+
+    .footer-div-2{
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .Collection{
+        width: 90%;
+        flex-wrap: wrap;;
+        height: auto;
+    }
+
+    .collec-img-1{
+        width: 90%;
+        height: 600px;
+        margin: 0 auto;
+        padding-top: 0%;;
+    }
+
+    .collec-img-1:hover{
+    width: 400px;
+    height: 600px;
+   }
+  
+    .img-1{
+        width: 60%;
+        height: auto;
+    }
+
+    .coll-h2{
+        width: 30%;
+        padding-bottom: 10px;
+        font-size: 25px;
+    }  
+}
+
+@media(max-width: 800px){
+
+    .navigation{
+        display: none;
+    }
+
+    .burger-bar{
+        display: block;
+    }
+
+    .navigation-block{
+        padding: 1px 10px;
+    }
+
+    .nav-ul{
+        flex-direction: column;
+        width: 120px;
+        padding-top: 15px;
+    }  
+
+    .navigation.activeNav{
+        display: block;
+    }
+}
+
+
 @media(max-width: 1024px){
+
+    .div-2023{
+        height: 30%;
+        width: 50%;
+        margin-left: 40px;
+        margin-top: 200px;
+        transform: rotate(90deg);
+    }
 
     .contact-info{
         width: 70%;
@@ -109,110 +224,7 @@
     }
 }
 
-@media(max-width: 800px){
 
-    .navigation{
-        display: none;
-    }
-
-    .burger-bar{
-        display: block;
-    }
-
-    .navigation-block{
-        padding: 1px 10px;
-    }
-
-    .nav-ul{
-        flex-direction: column;
-        width: 120px;
-        padding-top: 15px;
-    }  
-
-    .navigation.activeNav{
-        display: block;
-    }
-
-}
-@media(min-width: 320px) and (max-width: 620px){
- 
-    .arrow{
-        top: 35%;
-        left: 20%;
-    }
-
-    .brown-div{
-        margin: 0 auto;
-        height: 60px;
-        text-align: center;
-        position: relative;
-    }
-
-    .brown-h3{
-        width: 80%;
-        font-size: 8px;
-        height: auto;
-        height: 20px;
-        left: 0%;
-        position: absolute;
-        animation-name: text;
-        height: auto;
-        animation: text 5s infinite;
-        animation-direction: alternate;
-    }
-    
-    @keyframes text{    
-        from {bottom: 2px;}
-        to {bottom: 10px;}  
-    }
-
-    .for-logo{
-        padding-top: 150px;
-    }
-
-    .footer-div-2{
-        flex-wrap: wrap;
-        width: 90%;
-    }
-
-    .Collection{
-        width: 90%;
-        flex-wrap: wrap;;
-        height: auto;
-    }
-
-    .collec-img-1{
-        width: 90%;
-        height: 600px;
-        margin: 0 auto;
-        padding-top: 0%;;
-    }
-
-    .collec-img-1:hover{
-    width: 400px;
-    height: 600px;
-}
-  
-
-    .img-1{
-        width: 60%;
-        height: auto;
-    }
-
-    .coll-h2{
-        width: 30%;
-        padding-bottom: 10px;
-        font-size: 25px;
-    }  
-
-}
-
-@media(min-width: 320px) and (max-width: 360px) {
-    .div-2023{
-        display: none;
-     }
- 
-}
 
 
 
