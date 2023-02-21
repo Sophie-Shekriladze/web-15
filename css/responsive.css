@@ -1,7 +1,34 @@
 @media(max-width: 1024px){
 
+    .contact-info{
+        width: 70%;
+        flex-wrap: wrap;
+        margin: 50px auto;
+    }
+    
+    .social-3{
+        width: 80%;
+        font-size: 12px;
+        flex-wrap: wrap;
+    }
+    .submit{
+        margin: 20px auto;
+        width: 20%;
+    }
+
+    .contact-h2{
+        margin: 50 auto;
+        width: 80%;
+    }
+
+    .click-about{
+        width: 30%;
+        left: 20px;
+    }
+
     .bg-img-2023{
-        height: auto;
+        width: 80%;
+        height: 500px;
     }
 
     .brown-div{
@@ -15,26 +42,7 @@
         height: auto;
     }
 
-    .first-div{
-        height: auto;
-    }
-
-    .first-div{
-        height: auto;
-    }
-
-    .div-2023{
-        width: 30%;
-        height: auto;
-        margin-left: 40px;
-        transform: rotate(90deg);
-    }
-
-    .img-2023{
-        width: 100%;
-        margin: 0 auto;
-    }
-
+   
     .footer-div{
         bottom: 500px;
     }
@@ -127,22 +135,10 @@
 
 }
 @media(min-width: 320px) and (max-width: 620px){
-       .div-2023{
-        width: 30%;
-        height: auto;
-        margin-left: 40px;
-        margin-top: 150px;
-        transform: rotate(90deg);
-    }
-
+ 
     .arrow{
         top: 35%;
         left: 20%;
-    }
-
-    .img-2023{
-        width: 100%;
-        margin: 0 auto;
     }
 
     .brown-div{
@@ -207,10 +203,16 @@
         width: 30%;
         padding-bottom: 10px;
         font-size: 25px;
-    }
+    }  
+
 }
 
-
+@media(min-width: 320px) and (max-width: 360px) {
+    .div-2023{
+        display: none;
+     }
+ 
+}
 
 
 

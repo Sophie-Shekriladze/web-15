@@ -5,9 +5,15 @@ body{
 .navigation-block{
     display: flex;
     justify-content: space-between;
-    padding: 1px 60px;  
+    padding: 0px 60px;  
     align-items: center; 
-    position: relative; 
+    position: relative;
+    z-index: 300;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    background: #ddcdac;
+    opacity: 0.9;
 }
 
 .nav-ul{
@@ -53,6 +59,7 @@ body{
 .womens-img-1{
     max-width: 900px;
     width: 100%;
+    height: auto;
     margin-top: 80px;
     margin-left: 60px;
 }
@@ -293,11 +300,6 @@ body{
  color: #BE6C42;
 }
 
-.navigation-block-2{
-  max-width: 1200px;
-  margin: 0 auto;
-    
-}
 
 .for-future{
     max-width: 1000px;
@@ -327,10 +329,11 @@ body{
 .Collection{
     max-width: 1250px;
     width: 100%;
-    margin: 30px auto;
+    margin: 0 auto;
     height: 800px;
     display: flex;
     justify-content: space-between;
+    padding-top: 50px;
 }
 
 .collec-img-1{
@@ -478,7 +481,8 @@ body{
     font-family: 'Gilroy';
     color: #713C25;
     margin: 130px auto;
-    width: 800px;
+    max-width: 800px;
+    width: 100%;
     text-align: center;
 }
 
@@ -583,7 +587,8 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 241px;
+    max-width: 241px;
+    width: 100%;
     height: 83px;
     background: var(--box-background);
     border-radius: 5px;
@@ -636,7 +641,8 @@ body{
 
 .Copyright{
     margin-top: 10px;
-    width: 110px;
+    max-width: 110px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -647,7 +653,8 @@ body{
 } 
 
 .click-box{
-    width: 330px;
+    max-width: 200px;
+    width: 100%;
     height: 40px;
     background:#8d4628;
     margin-top: 320px;
