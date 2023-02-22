@@ -81,6 +81,58 @@
 
 @media(max-width: 800px){
 
+    .new-div{
+        width: 90%;
+    }
+
+    .title{
+        width: 90%;
+    }
+
+   .title-3{
+    width: 70%;
+    font-size: 60px;
+}
+
+    .title-4{
+    width: 60%;
+    top: 270px;
+    left: 30px;
+}
+
+   .click-box-3{
+    left: 10px;
+    top: 1px;
+}
+
+   .title-2{
+      width: 70%;
+      font-size: 40px;
+      left: 100px;
+      top:150px
+}
+
+.title-1{
+    font-size: 30px;
+    left: 50px;
+}
+
+   .mrgvali{
+      width: 30%;
+      left: 30%;
+}
+
+   .wmn{
+      width: 50%;
+      left: 50%;
+      top: 40%;
+} 
+
+   .badge{
+      width: 40%;
+      left: 200px; 
+} 
+/* dasasruli */
     .navigation{
         display: none;
     }
@@ -105,7 +157,10 @@
 }
 
 
+
 @media(max-width: 1024px){
+
+    
 
     .div-2023{
         height: 30%;
@@ -228,14 +283,64 @@
         width: 90%; 
         font-size: 15px;
     }
+
+    /* dasawyisi */
+    .new-div{
+        width: 90%;
+    }
+
+    .title{
+        width: 90%;
+    }
+
+   .title-3{
+    width: 70%;
+    font-size: 60px;
+}
+
+    .title-4{
+    width: 60%;
+    top: 270px;
+    left: 30px;
+}
+
+   .click-box-3{
+    left: 10px;
+    top: 1px;
+}
+
+   .title-2{
+      width: 70%;
+      font-size: 40px;
+      left: 100px;
+      top:150px
+}
+
+.title-1{
+    font-size: 50px;
+    left: 50px;
+}
+
+   .mrgvali{
+      width: 50%;
+      left: 50%;
+}
+
+   .wmn{
+      width: 50%;
+      left: 50%;
+      top: 20%;
+} 
+
+   .badge{
+      width: 40%;
+      left: 200px; 
+} 
 }
 
 
 
-
-
-
-
+ 
 
 
 
