@@ -341,7 +341,7 @@ body{
 }
 
 .social-3{
-    max-width: 420px;
+    max-width: 400px;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -841,6 +841,13 @@ body{
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+}
+
+.Copyright-contact{
+    max-width: 150px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .fa-copyright{

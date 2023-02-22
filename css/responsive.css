@@ -164,7 +164,13 @@
 
     .for-logo{
         padding-top: 250px;
+        transition: width 2s, height 1s;
     }
+
+    .for-logo:hover{
+        width: 90%;
+    }
+    
 
     .width-the-young{
         margin-left: 20px;
